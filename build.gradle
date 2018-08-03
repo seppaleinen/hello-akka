@@ -33,8 +33,10 @@ test {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('com.typesafe.akka:akka-actor_2.12:2.5.14')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.typesafe.akka:akka-testkit_2.12:2.5.14')
     testCompile('io.rest-assured:rest-assured:3.0.5')
 }
 
