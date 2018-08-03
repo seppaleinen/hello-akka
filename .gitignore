@@ -16,6 +16,3 @@ gradle-app.setting
 .idea/
 .gradle/
 out/
-gradle/
-gradlew
-gradlew.bat
