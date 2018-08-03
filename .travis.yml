@@ -13,8 +13,5 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
-before_install:
-  - gradle assemble
-
 script:
   - gradle clean build;
